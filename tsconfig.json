@@ -11,6 +11,6 @@
     "moduleResolution": "node",
     "sourceMap": true,    
   },
-  "include": ["src"],
+  "include": ["src", "front", "src/http_server"],
   "exclude": ["./node_modules"],
 }
