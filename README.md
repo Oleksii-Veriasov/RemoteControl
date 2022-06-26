@@ -24,11 +24,19 @@ This application implement remote control backend using RobotJS library and webs
 **For perform control use keyboard**  :keyboard:
 
 :arrow_up: => Move mouse Up
+
 :arrow_down: => Move mouse Down
+
 :arrow_left: => Move mouse Left
+
 :arrow_right: => Move mouse Right
+
 `c` => Draw circle
+
 `r` => Draw rectangle 
+
 `s` => Draw square
+
 `p` => Send current mouse coordinates
-`Ctrl`+ `p` => Send desktop capture (optionally)
+
+`Ctrl`+ `p` => Send desktop capture
