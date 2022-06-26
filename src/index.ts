@@ -1,10 +1,10 @@
-import { httpServer } from "./src/http_server/index";
+import { httpServer } from "./http_server/index";
 import robot from "robotjs";
 import { createWebSocketStream, WebSocketServer } from "ws";
 import "dotenv/config";
-import { drawCircle } from "./src/drawCircle";
-import { drawRectangle } from "./src/drawRectangle";
-import { makeScreenshot } from "./src/makeScreensot";
+import { drawCircle } from "./drawCircle";
+import { drawRectangle } from "./drawRectangle";
+import { makeScreenshot } from "./makeScreensot";
 const PORT = process.env.PORT;
 const HTTP_PORT = 3000;
 
